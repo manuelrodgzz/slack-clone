@@ -1,0 +1,31 @@
+.container{
+    color: rgb(188,171,188);
+    height: 1.5em;
+    text-align: start;
+    padding: .2em 2em;
+    display: flex;
+}
+
+.container:hover{
+    cursor: pointer;
+    background-color: rgb(53,13,54);   
+}
+
+.icon-img{
+    width: 20px;
+}
+
+.icon-img-container{
+    width: 14%;
+}
+
+.icon-img-container > img{   
+    border-radius: 4px;
+}
+
+.text-container{
+    width: 86%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

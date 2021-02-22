@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    user-select: none;
+    margin: 1em 1em 1em 2em;
+}
+
+.container:hover{
+    cursor: pointer;
+}
+
+.icon-container{
+    margin-right: .5em;
+}
+
+.children-container{
+    margin-left: 1em;
+}
