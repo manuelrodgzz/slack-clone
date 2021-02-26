@@ -1,4 +1,34 @@
 .container{
     border: 1px solid rgb(188,171,188);
+    border-top: none;
     height: 12%;
+    color: black;
+}
+
+.chat-name{
+    display: flex;
+}
+
+.connection-status{
+    align-self: flex-start;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin: 1.4em .5em;
+}
+
+.connected {
+    background-color: green;
+}
+
+.disconnected {
+    border: 2px solid rgb(188,171,188);
+    background-color: white;
+}
+
+.info{
+    margin: auto 0;
+    margin-left: auto;
+    margin-right: 1.5em;
+    
 }

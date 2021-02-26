@@ -3,7 +3,7 @@ import styles from './MessageBox.module.css'
 
 const MessageBox = (props) => {
     return(
-        <div>MessageBox is working!</div>
+        <div className={styles.container}>MessageBox is working!</div>
     )
 }
 
